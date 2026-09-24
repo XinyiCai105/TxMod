@@ -195,10 +195,6 @@ manuscript from the processed tables deposited at Zenodo. See
 ## Citation
 
 If you use TxMod, please cite the accompanying manuscript
-(*[PLACEHOLDER: citation on acceptance]*).
-
-External resources retain their own terms: iM6A (model weights), CISBP-RNA
-(motifs), and COSMIC (variants, licence required — not redistributed here).
 
 ## Licence
 
