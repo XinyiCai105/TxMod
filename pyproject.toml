@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "txmod"
+version = "0.1.0"
+description = "Transcript-resolved interpretation of 3'UTR variants via isoform-specific m6A and RBP-binding alteration"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "TxMod developers" }]
+keywords = ["m6A", "epitranscriptomics", "3'UTR", "variant interpretation", "RNA-binding protein"]
+classifiers = [
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+dependencies = ["numpy>=1.21", "pandas>=1.3", "scipy>=1.7"]
+
+[project.optional-dependencies]
+m6a = ["tensorflow>=2.10"]        # only needed for iM6A prediction
+fasta = ["pyfaidx>=0.7"]          # indexed random access to large genomes
+stats = ["statsmodels>=0.13"]     # logistic size correction in background.py
+dev = ["pytest>=7", "pytest-cov", "statsmodels>=0.13"]
+all = ["tensorflow>=2.10", "pyfaidx>=0.7", "statsmodels>=0.13", "pytest>=7"]
+
+[project.scripts]
+txmod = "txmod.cli:main"
+
+# [project.urls]
+# Homepage = "https://github.com/<org>/txmod"   # fill in on release
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

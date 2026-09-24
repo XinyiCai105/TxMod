@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using these metadata."
+title: "TxMod: transcript-resolved interpretation of 3' UTR mutations through isoform-specific epitranscriptomic alteration"
+version: 0.1.0
+license: MIT
+type: software
+# TODO before publishing: replace with the real author list (same as the
+# manuscript's author line and pyproject.toml), and fill in repository-code
+# once the GitHub repository exists.
+authors:
+  - name: "TxMod developers"
+repository-code: "REPLACE_WITH_GITHUB_URL"
+keywords:
+  - m6A
+  - epitranscriptomics
+  - 3' UTR
+  - transcript isoforms
+  - somatic mutations

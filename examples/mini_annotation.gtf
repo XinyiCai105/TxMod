@@ -1,0 +1,11 @@
+chr1	ex	exon	1000	1200	.	+	.	gene_id "GENEA"; transcript_id "TXA1"; gene_name "GENEA";
+chr1	ex	CDS	1000	1200	.	+	.	gene_id "GENEA"; transcript_id "TXA1"; gene_name "GENEA";
+chr1	ex	exon	1500	1700	.	+	.	gene_id "GENEA"; transcript_id "TXA1"; gene_name "GENEA";
+chr1	ex	CDS	1500	1650	.	+	.	gene_id "GENEA"; transcript_id "TXA1"; gene_name "GENEA";
+chr1	ex	exon	2050	2500	.	+	.	gene_id "GENEA"; transcript_id "TXA1"; gene_name "GENEA";
+chr1	ex	exon	1000	1200	.	+	.	gene_id "GENEA"; transcript_id "TXA2"; gene_name "GENEA";
+chr1	ex	CDS	1000	1200	.	+	.	gene_id "GENEA"; transcript_id "TXA2"; gene_name "GENEA";
+chr1	ex	exon	1500	1900	.	+	.	gene_id "GENEA"; transcript_id "TXA2"; gene_name "GENEA";
+chr1	ex	CDS	1500	1650	.	+	.	gene_id "GENEA"; transcript_id "TXA2"; gene_name "GENEA";
+chr1	ex	exon	2600	2900	.	-	.	gene_id "GENEB"; transcript_id "TXB1"; gene_name "GENEB";
+chr1	ex	CDS	2800	2900	.	-	.	gene_id "GENEB"; transcript_id "TXB1"; gene_name "GENEB";
